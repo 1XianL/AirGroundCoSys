@@ -1,0 +1,26 @@
+{
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "duration_seconds": 24,
+    "fps": 24
+  },
+  "style": {
+    "panel_style": "factory_control"
+  },
+  "simulation": {
+    "num_sensors": 12,
+    "update_interval_seconds": 2,
+    "value_range": {
+      "min": 10.0,
+      "max": 95.0
+    },
+    "update_behavior": {
+      "drift_strength": 0.2,
+      "volatility": 0.08,
+      "anomaly_probability": 0.05,
+      "spike_scale": 0.25
+    },
+    "seed": 7
+  }
+}
